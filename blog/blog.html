@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initials-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+</head>
+<body>
+
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--中间内容-->
+<div class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+        <div class="ui top attached segment">
+            <!--头部-->
+            <div class="ui mini horizontal link list">
+                <div class="item">
+                    <img src="https://picsum.photos/id/1/100/100" alt="" class="ui avatar image">
+                    <div class="content"><a href="#" class="header">李仁密</a></div>
+                </div>
+                <div class="item">
+                    <i class="calendar icon"></i> 2017-10-01
+                </div>
+                <div class="item">
+                    <i class="eye icon"></i> 123
+                </div>
+            </div>
+        </div>
+        <div class="ui attached segment">
+            <!--图片区域-->
+            <img src="https://picsum.photos/id/1/800/400" alt="" class="ui fluid rounded image">
+        </div>
+        <div class="ui attached padded segment">
+            <!--内容-->
+            <div class="ui right aligned basic segment">
+                <div class="ui orange basic label">原创</div>
+            </div>
+            <h2 class="ui center aligned header">关于刻意练习的清单</h2>
+            <div id="content" class="m-padded-lr m-padded-tb-large">
+                <h2>1.</h2>
+                <p>不论在什么行业或领域，提高技能与能力的最有效方法全都遵循一系列普遍原则，就是刻意练习。成为任何领域高手的关键因素不是文化，不是艺术，不是哲学，不是制度，不是自虐，而是刻意练习。
+                </p>
+                <h2>2.</h2>
+                <p>关于刻意练习，被误读最久的一个概念是“一万小时定律”。事实上，想把自己变成高手，光知道“一万小时”毫无意义，因为真正的关键根本不在训练时间，而是训练的方法。
+                </p>
+                <h2>3.</h2>
+                <p>功夫就在功夫上，“功夫在诗外”就是一句谎言。技能是人脑中的一种硬件结构，是“长”在人脑中的。要高度针对性地重复练习基本功，想要学什么功夫，就应该练什么功夫。
+                </p>
+            </div>
+            <!--标签-->
+            <div class="m-padded-lr">
+                <div class="ui basic teal left pointing label">方法论</div>
+            </div>
+            <!--赞赏-->
+            <div class="ui center aligned basic segment">
+                <button class="ui orange basic circular button">赞赏</button>
+            </div>
+        </div>
+        <div class="ui attached positive message">
+            <!--博客信息-->
+        </div>
+        <div class="ui bottom attached segment">
+            留言区域
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./static/images/wechat.jpg" alt="" class="ui rounded image" style="width:110px">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事 (User Story)</a>
+                    <a href="#" class="item">关于刻意练习的清单</a>
+                    <a href="#" class="item">失败要趁早</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email</a>
+                    <a href="#" class="item">QQ</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">Blog</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客，会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright©2020 Alex Liu</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+<script>
+    $('.menu.toggle').click(function() {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+</script>
+
+</body>
+</html>
